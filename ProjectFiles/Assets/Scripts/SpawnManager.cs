@@ -21,7 +21,6 @@ public class SpawnManager : MonoBehaviour
         }
     }
 
-
     void incrementLevel()
     {
         currentLevel++;

@@ -86,7 +86,7 @@ public class Enemy : MonoBehaviour
             score.score += 1000;
             if(Random.Range(0,10) == 0)
             {
-                Instantiate(upgradePrefabs[Random.Range(0, upgradePrefabs.Count)]);
+                Instantiate(upgradePrefabs[Random.Range(0, upgradePrefabs.Count)], transform.position, transform.rotation);
             }
             Destroy(gameObject);
         }
